@@ -1,0 +1,80 @@
+.App {
+  margin: 0;
+  font-family: sans-serif;
+
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+}
+
+main {
+  width: 18rem;
+
+  border: solid 1px #00000020;
+  border-radius: 5px;
+  padding: 0.9rem 1.8rem;
+  box-shadow: 2px 2px 5px 0 #00000010;
+}
+
+section {
+  margin-bottom: 1.8rem;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+section .title {
+  font-size: 0.9rem;
+  border-bottom: solid 2px black;
+  padding-bottom: 0.4rem;
+}
+
+.MuiOutlinedInput-root {
+  margin: 0px 5px;
+}
+
+form.add-item {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+}
+
+form .text-input {
+  border: solid 1px #00000030;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo {
+  display: grid;
+  grid-template-columns: 2rem 1fr 3rem;
+
+  padding: 10px 0;
+  border-bottom: solid 1px #00000010;
+}
+
+.todo .text.completed {
+  text-decoration: line-through;
+}
+
+.todo .button-section {
+  display: grid;
+  grid-gap: 3px;
+}
+
+.todo .completed-section,
+.todo .button-section {
+  display: grid;
+  place-content: center;
+}
+
+.delete:hover {
+  color: rgb(228, 98, 98);
+}
